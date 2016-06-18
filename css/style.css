@@ -95,6 +95,12 @@ html, body {
 }
 .content-subtitle {
     font-family: 'Play', sans-serif;
+    font-size: 125%;
+    width: 100vh;
+    max-width: 100vh;
+    padding-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -137,3 +143,9 @@ html, body {
     text-align: center;
 }
 
+a {
+    color: aquamarine;
+}
+a:visited {
+    color: lavenderblush;
+}
