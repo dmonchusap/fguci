@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Kelly+Slab|Play);
+
 html, body {
   overflow: hidden;
 }
@@ -31,7 +32,7 @@ html, body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .background:first-child {
-  background-image: url(http://s8.postimg.org/lf2udl5np/4_Aihmii.jpg);
+  background-image: url("../../img/DSC_2801.jpg");
   -webkit-transform: translateY(-15vh);
           transform: translateY(-15vh);
 }
@@ -40,10 +41,13 @@ html, body {
           transform: translateY(15vh);
 }
 .background:nth-child(2) {
-  background-image: url(http://s8.postimg.org/ow4wgk4px/ugqti_Lg.jpg);
+  background-image: url("../../img/DSC_2657.jpg");
 }
 .background:nth-child(3) {
-  background-image: url(http://s8.postimg.org/grwsbtiat/x_ZMOBTj.jpg);
+  background-image: url("../../img/DSC_2796.jpg");
+}
+.background:nth-child(4) {
+  background-image: url("../../img/DSC_2730.jpg");
 }
 
 /* Set stacking context of slides */
@@ -74,7 +78,7 @@ html, body {
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
   color: #fff;
-  font-family: Montserrat;
+  font-family: 'Kelly Slab', cursive;
   text-transform: uppercase;
   -webkit-transform: translateY(40vh);
           transform: translateY(40vh);
@@ -87,6 +91,11 @@ html, body {
 .content-title {
   font-size: 12vh;
   line-height: 1.4;
+  font-family: 'Kelly Slab', cursive;
+}
+.content-subtitle {
+    font-family: 'Play', sans-serif;
+    text-align: center;
 }
 
 .background.up-scroll {
@@ -122,3 +131,9 @@ html, body {
   -webkit-transform: translateY(15vh);
           transform: translateY(15vh);
 }
+
+.h5 {
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
